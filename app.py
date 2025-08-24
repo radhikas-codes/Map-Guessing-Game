@@ -9,7 +9,7 @@ st.set_page_config(page_title="Map Guessing Game", page_icon="🌍", layout="wid
 MAPS = {
     "US States": {"csv": "50_states.csv", "image": "blank_states_img.gif"},
     "Indian States": {"csv": "indian_states.csv", "image": "indian_states_map.gif"},
-    "Europe Countries": {"csv": "europe_countries.csv", "image": "europe_map.gif"},
+    "European Countries": {"csv": "europe_map.csv", "image": "europe_map.gif"},
     "Asia Countries": {"csv": "asia_countries.csv", "image": "asia_map.gif"},
 }
 
