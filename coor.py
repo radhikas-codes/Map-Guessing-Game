@@ -1,8 +1,8 @@
 import turtle
 
 screen = turtle.Screen()
-screen.title("European Countries")
-image = "europe_map.gif"
+screen.title("south america Countries")
+image = "south_america_map.gif"
 screen.addshape(image)
 turtle.shape(image)
 

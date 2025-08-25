@@ -10,7 +10,7 @@ MAPS = {
     "US States": {"csv": "50_states.csv", "image": "blank_states_img.gif"},
     "Indian States": {"csv": "indian_states.csv", "image": "indian_states_map.gif"},
     "European Countries": {"csv": "europe_map.csv", "image": "europe_map.gif"},
-    "Asia Countries": {"csv": "asia_countries.csv", "image": "asia_map.gif"},
+    "South American Countries": {"csv": "south_america_countries.csv", "image": "south_america_map.gif"},
 }
 
 # ---------- Helpers ----------
