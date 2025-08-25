@@ -121,4 +121,5 @@ with colb2:
 
 with colb3:
     if len(guessed) == TOTAL:
+        st.balloons()
         st.success("🎉 You completed this map!")
