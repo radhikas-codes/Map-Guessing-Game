@@ -55,10 +55,16 @@ df = load_data(MAPS[map_choice]["csv"])
 all_names = set(df["name_norm"].tolist())
 TOTAL = len(all_names)
 
-if "guessed" not in st.session_state or st.session_state.get("map_choice") != map_choice:
-    # Reset game if user changes map
-    st.session_state.guessed = []
+# ---------- Session state handling ----------
+if "map_choice" not in st.session_state:
+    # First run, initialize
     st.session_state.map_choice = map_choice
+    st.session_state.guessed = []
+    st.session_state.current_guess = ""
+elif st.session_state.map_choice != map_choice:
+    # Reset only if user changes map
+    st.session_state.map_choice = map_choice
+    st.session_state.guessed = []
     st.session_state.current_guess = ""
 
 guessed = st.session_state.guessed
